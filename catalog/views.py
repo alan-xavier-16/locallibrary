@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from .models import Book, Author, BookInstance, Genre
 
 # Create your views here.
